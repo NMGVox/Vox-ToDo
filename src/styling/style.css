@@ -35,3 +35,32 @@ table {
 }
 
 /*RESET*/
+body {
+    min-height: 100vh;
+    width: 100vw;
+}
+
+#header {
+    height: 7vh;
+    width:100%;
+    background-color: beige;
+}
+
+#app {
+    min-height: 93vh;
+    display:grid;
+    grid-template-columns: 2fr 8fr;
+    grid-auto-rows: 1fr;
+}
+
+#sidebar {
+    width:100%;
+    max-height: 100%;
+    background-color: aqua;
+}
+
+#main {
+    width:100%;
+    max-height: 100%;
+    background-color: black;
+}
